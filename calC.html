@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Calculator</title>
+  <link rel="stylesheet" href="calC.css">
+ 
+</head>
+<body>
+  <div class="calculator-container">
+    <div class="header">
+      <h2>Calculator</h2>
+      <p>Built during my web dev journey</p>
+    </div>
+
+    <div class="display-container">
+      <div class="history" id="history"></div>
+      <input type="text" class="display" id="display" value="0" readonly>
+    </div>
+
+    <div class="buttons">
+      <button class="btn-clear" onclick="clearDisplay()">AC</button>
+      <button class="btn-operator" onclick="deleteLast()">⌫</button>
+      <button class="btn-operator" onclick="appendOperator('/')">÷</button>
+
+      <button class="btn-number" onclick="appendNumber('7')">7</button>
+      <button class="btn-number" onclick="appendNumber('8')">8</button>
+      <button class="btn-number" onclick="appendNumber('9')">9</button>
+      <button class="btn-operator" onclick="appendOperator('*')">×</button>
+
+      <button class="btn-number" onclick="appendNumber('4')">4</button>
+      <button class="btn-number" onclick="appendNumber('5')">5</button>
+      <button class="btn-number" onclick="appendNumber('6')">6</button>
+      <button class="btn-operator" onclick="appendOperator('-')">−</button>
+
+      <button class="btn-number" onclick="appendNumber('1')">1</button>
+      <button class="btn-number" onclick="appendNumber('2')">2</button>
+      <button class="btn-number" onclick="appendNumber('3')">3</button>
+      <button class="btn-operator" onclick="appendOperator('+')">+</button>
+
+      <button class="btn-number" onclick="appendNumber('0')">0</button>
+      <button class="btn-number" onclick="appendNumber('.')">.</button>
+      <button class="btn-equals" onclick="calculate()">=</button>
+    </div>
+
+   
+  </div>
+    <script src="calC.js"></script>
+</body>
+</html>
+  
+  
