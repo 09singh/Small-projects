@@ -26,7 +26,7 @@ A modern and interactive Tic Tac Toe game built using HTML, CSS, and JavaScript 
 
 ## 📸 Screenshot
 
-![Tic Tac Toe Screenshot](./screenshot.png)
+![Tic Tac Toe Screenshot](https://github.com/09singh/Small-projects/blob/960d82d434e9ac790a3f6dfc1e5056f79249bc56/Screenshot%20.png)
 
 ---
 
